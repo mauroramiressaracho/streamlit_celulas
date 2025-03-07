@@ -56,7 +56,7 @@ st.markdown("""
 
 if cell_groups:
     df = pd.DataFrame(cell_groups)
-    df = df[["LIDERES DA CELULA", "LIDERES DA REDE", "TIPO DE CELULA", "TEMPO DA CELULA", "VIDAS NA CELULA", "ENDERECO", "COORDENADAS"]]
+    df = df[["LIDERES DA CELULA", "LIDERES DA REDE", "TIPO DE CELULA", "ENDERECO", "COORDENADAS"]]
     
     # Criar coluna de botões para rotas no Google Maps
     def create_route_button(coords):
